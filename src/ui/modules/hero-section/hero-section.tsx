@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -10,9 +11,11 @@ const HeroSection = () => {
         <p className="text-gray-600 mt-4 text-sm md:text-base">
           Experience the vibrant flavours of Africa! Every bite tells a story of tradition,spice,and passion.
         </p>
+        <Link href ="/menu">
         <button className="mt-6 px-6 py-3 bg-primary-500 text-white font-semibold rounded-md shadow-md hover:bg-gray-800 transition-all">
-          COMMANDER MAINTENANT
+          Order now
         </button>
+        </Link>
       </div>
 
       {/* Image à droite */}
